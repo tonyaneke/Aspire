@@ -20,7 +20,11 @@ export default function Nav() {
   return (
     <div>
       <div className="flex sticky top-0 z-50 justify-between items-center bg-white h-20 md:px-20 px-8 w-full md:py-0">
-        <Link href="/" className="text-2xl cursor-pointer">
+        <Link
+          href="/"
+          onClick={closeNavbar}
+          className="text-2xl cursor-pointer"
+        >
           <Image
             src={fullImage}
             className="object-fit"
