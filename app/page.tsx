@@ -24,6 +24,7 @@ export default function Home() {
       <CallToActioin />
       <Teams />
       <Faq />
+
       <ScrollToTopArrow />
     </main>
   );
