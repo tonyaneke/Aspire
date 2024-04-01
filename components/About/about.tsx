@@ -5,7 +5,7 @@ import recImg from "@/public/images/Rectangle 21.png";
 
 export default function AboutPage(): React.JSX.Element {
   return (
-    <div className="w-full bg-[#0A85EA] h-screen p-20  md:px-14 flex justify-center items-center">
+    <div className="w-full bg-[#0A85EA] h-auto p-20  md:px-14 flex justify-center items-center">
       <div className="flex flex-col gap-10">
         <div className="flex justify-between gap-10 flex-col md:flex-row">
           <div className="flex flex-col justify-start gap-10">

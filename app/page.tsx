@@ -8,6 +8,7 @@ import Teams from "@/components/Team/Teams";
 import { auth } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 import Footer from "@/components/footer/footer";
+import ScrollToTopArrow from "@/components/ScrollHandler";
 
 export default function Home() {
   const { userId } = auth();
@@ -23,7 +24,7 @@ export default function Home() {
       <CallToActioin />
       <Teams />
       <Faq />
-      <Footer />
+      <ScrollToTopArrow />
     </main>
   );
 }

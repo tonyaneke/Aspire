@@ -43,9 +43,9 @@ export default function Teams() {
         ))}
       </ul>
       <div
-        className="h-[20vh] bg-[#F6F5F8] border mt-4 rounded-lg shadow-lg 
+        className="h-auto bg-[#F6F5F8] border mt-4 rounded-lg shadow-lg 
       border-[#EAEAEA] p-4 flex flex-col md:flex-row gap-8 
-      md:justify-between mx-[10%] md:items-center lg:mx-10 md:px-10
+      md:justify-between mx-[10%] md:items-center lg:mx-10 md:px-10 max-w-[70%]
        "
       >
         <div>

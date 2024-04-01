@@ -39,9 +39,8 @@ export default function Metrics() {
   return (
     <div className="w-[80vw] mx-auto  ">
       <div className="my-20">
-        <h1 className="text-center text-5xl font-semibold">
-          Our 12 years of together have given
-          <br /> us much to be proud of
+        <h1 className="text-center text-3xl font-semibold">
+          Our 12 years of together have given us much to be proud of
         </h1>
       </div>
       <div>

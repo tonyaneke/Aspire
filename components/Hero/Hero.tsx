@@ -7,7 +7,7 @@ import Input from "../input";
 export default function Hero() {
   return (
     <div className="border-b-2  flex flex-col gap-6 w-[80%]  ">
-      <h1 className="text-blue-950 mt-20 mx-16 xl:text-5xl text-center lg:px-20 font-bold text-4xl">
+      <h1 className="text-blue-950 mt-20 md:mx-16 xl:text-5xl text-center lg:px-20 font-bold text-3xl">
         MultiPurpose Website Templates That boost your sales
       </h1>
       <p className="text-sm mx-14 text-center text-gray-400">

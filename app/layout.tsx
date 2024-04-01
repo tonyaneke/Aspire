@@ -27,6 +27,7 @@ export default function RootLayout({
         <body className={cn(inter.className)}>
           <Header />
           <>{children}</>
+          <Footer />
         </body>
       </html>
     </ClerkProvider>

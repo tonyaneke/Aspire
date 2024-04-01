@@ -2,8 +2,14 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="h-[60vh] bg-blue-950 md:px-44 lg:px-60 flex px-20 flex-col gap-10 w-full justify-center">
-      <div className="flex flex-col justify-between  border-b pb-10 gap-10 lg:gap-0 md:flex-row">
+    <div
+      className="h-auto py-[10vh] bg-blue-950 md:px-44 lg:px-60 flex 
+    px-10 flex-col gap-10 w-full  items-center"
+    >
+      <div
+        className="flex flex-col justify-between  
+      border-b pb-10 gap-10 lg:gap-0 md:flex-row"
+      >
         <div className="flex text-white gap-10">
           <div>
             <h2 className="mb-2">Company</h2>
@@ -69,17 +75,26 @@ export default function Footer() {
             <h2 className="mb-2">Help Center</h2>
             <ul className="flex flex-col gap-2">
               <li>
-                <p className="text-sm font-light text-gray-500 hover:text-gray-400">
+                <p
+                  className="text-sm font-light text-gray-500
+                 hover:text-gray-400"
+                >
                   Community
                 </p>
               </li>
               <li>
-                <p className="text-sm font-light text-gray-500 hover:text-gray-400">
+                <p
+                  className="text-sm font-light text-gray-500
+                 hover:text-gray-400"
+                >
                   Knowledge base
                 </p>
               </li>
               <li>
-                <p className="text-sm font-light text-gray-500 hover:text-gray-400">
+                <p
+                  className="text-sm font-light text-gray-500 
+                hover:text-gray-400"
+                >
                   Academy
                 </p>
               </li>
@@ -100,12 +115,12 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex justify-between">
-        <p className="text-white text-xs">
+      <div className="flex justify-between ">
+        <p className=" text-gray-500 hover:text-gray-400 text-xs">
           Copyright @2023 Aspire. All Rights Reserved.
         </p>
 
-        <p className="text-white text-xs">
+        <p className=" text-gray-500 hover:text-gray-400 text-xs">
           Terms & Conditions ~ Privacy Policy
         </p>
       </div>

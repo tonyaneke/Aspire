@@ -9,7 +9,7 @@ export default function DashboardPage() {
   if (!isLoaded) <p>Loading...</p>;
 
   return (
-    <div className="flex w-full h-full justify-center items-center">
+    <div className="flex w-full h-screen justify-center items-center">
       <div>
         <h1 className="text-2xl pt-10 pl-10 font-bold text-blue-900">
           Welcome {user?.firstName}

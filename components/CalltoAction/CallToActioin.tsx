@@ -3,8 +3,8 @@ import Input from "../input";
 
 export default function CallToActioin() {
   return (
-    <div className="h-[60vh] mt-10 flex justify-center items-center w-full bg-white">
-      <div className="bg-[#0A85EA] h-[80%] w-[80vw] flex flex-col justify-center items-center rounded-lg">
+    <div className="h-auto mt-10 flex justify-center items-center w-full bg-white">
+      <div className="bg-[#0A85EA] auto py-5 w-[80vw] flex flex-col justify-center items-center rounded-lg">
         <h1 className="text-3xl mb-5 text-wrap text-center font-bold text-white mx-10">
           Get started with Aspire today
         </h1>
