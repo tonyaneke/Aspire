@@ -6,10 +6,10 @@ export default function PageWrapper({ children }) {
     <>
       <AnimatePresence>
         <motion.div
-          initial={{ opacity: 0, y: 15 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: 15 }}
-          transition={{ delay: 0.25 }}
+          initial={{ opacity: 0, x: 25 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: 25 }}
+          transition={{ delay: 1 }}
         >
           {children}
         </motion.div>
